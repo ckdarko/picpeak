@@ -17,5 +17,5 @@ COPY package.json package-lock.json ./
 
 RUN npm install --legacy-peer-deps
 
-# ⭐ THIS WAS MISSING ⭐
+# Build backend TypeScript
 RUN npm run build --prefix backend
